@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    font-size: 18px;
     line-height: 1.6;
     color: #fff;
     background-color: #000;
@@ -13,7 +14,7 @@ body {
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #1f1f1f;
     padding: 1rem 5%;
     position: fixed;
     width: 100%;
@@ -70,7 +71,7 @@ nav {
 /* Profile Name */
 .profile-name {
     color: #fff;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
     transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transitions */
 }
@@ -95,7 +96,7 @@ nav {
 .nav-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     position: relative;
     padding: 5px 0; /* Padding for underline effect */
     transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
@@ -171,7 +172,7 @@ nav {
     }
 
     .profile-name {
-        font-size: 20px; /* Smaller name on mobile */
+        font-size: 24px; /* Smaller name on mobile */
     }
 
     .nav-links {
